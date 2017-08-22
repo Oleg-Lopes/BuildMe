@@ -1,0 +1,59 @@
+/* line 1, C:/xampp/htdocs/buildme/style/index.sass */
+html {
+  box-sizing: border-box; }
+
+/* line 4, C:/xampp/htdocs/buildme/style/index.sass */
+*, *:before, *:after {
+  box-sizing: innerhit;
+  margin: 0;
+  padding: 0; }
+
+/* line 11, C:/xampp/htdocs/buildme/style/index.sass */
+#headerContainer {
+  display: flex; }
+
+/* line 14, C:/xampp/htdocs/buildme/style/index.sass */
+header {
+  max-height: 200px;
+  border: 1px solid red;
+  overflow: hidden;
+  resize: vertical; }
+
+/* line 20, C:/xampp/htdocs/buildme/style/index.sass */
+#headerLeft {
+  width: 20vw; }
+
+/* line 23, C:/xampp/htdocs/buildme/style/index.sass */
+#headerMiddle {
+  width: 60vw; }
+
+/* line 26, C:/xampp/htdocs/buildme/style/index.sass */
+#headerRight {
+  width: 20vw; }
+
+/* line 31, C:/xampp/htdocs/buildme/style/index.sass */
+main {
+  display: flex; }
+  /* line 34, C:/xampp/htdocs/buildme/style/index.sass */
+  main * {
+    border: 1px solid green; }
+  /* line 37, C:/xampp/htdocs/buildme/style/index.sass */
+  main div > *:not(:first-child) {
+    border: 1px solid blue; }
+  /* line 40, C:/xampp/htdocs/buildme/style/index.sass */
+  main aside {
+    width: 20vw;
+    height: 60vh;
+    overflow: hidden;
+    resize: both; }
+  /* line 46, C:/xampp/htdocs/buildme/style/index.sass */
+  main #articleContainer {
+    width: 60vw;
+    height: 60vh;
+    overflow: hidden;
+    resize: both; }
+    /* line 52, C:/xampp/htdocs/buildme/style/index.sass */
+    main #articleContainer article {
+      height: 33.3%; }
+
+/*# sourceMappingURL=index.css.map */

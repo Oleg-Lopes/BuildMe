@@ -1,0 +1,60 @@
+html
+    box-sizing: border-box
+
+*, *:before, *:after
+    box-sizing: innerhit
+    margin: 0
+    padding: 0
+
+////////////////////////////
+
+#headerContainer
+    display: flex
+
+header
+    max-height: 200px // 100px
+    border: 1px solid red
+    overflow: hidden
+    resize: vertical
+
+#headerLeft
+    width: 20vw
+
+#headerMiddle
+    width: 60vw
+
+#headerRight
+    width: 20vw
+
+/////////////////
+
+main
+    display: flex
+
+    *
+        border: 1px solid green
+
+    div>*:not(:first-child)
+        border: 1px solid blue
+
+    aside
+        width: 20vw
+        height: 60vh
+        overflow: hidden
+        resize: both
+
+    #articleContainer
+        width: 60vw
+        height: 60vh
+        overflow: hidden
+        resize: both
+
+        article
+            height: 33.3%
+
+
+
+
+
+
+
